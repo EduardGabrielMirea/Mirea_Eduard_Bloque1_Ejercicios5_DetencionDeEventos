@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded",function () {
             e.preventDefault();
             status.textContent = "Error: Todos los campos son obligatorios.";
         } else {
-            status.textContent = "Fromulario enviado con éxito.":
+            status.textContent = "Fromulario enviado con éxito.";
         }
     });
 });
